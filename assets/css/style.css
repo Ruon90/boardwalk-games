@@ -71,6 +71,7 @@ h2 {
 
 .student-discount {
     background-color: var(--highlight-color);
+    -ms-grid-column-align: center;
     justify-self: center;
     color: white;
 }
@@ -130,6 +131,8 @@ h2 {
 #contact .social-links i {
     color: var(--highlight-color-light);
     font-size: 1.9rem;
+    -webkit-transition: color 0.3s ease;
+    -o-transition: color 0.3s ease;
     transition: color 0.3s ease;
 }
 #contact .social-links i:hover {
@@ -139,17 +142,6 @@ h2 {
 #contact .table-dark * {
     background: transparent;
 }
-/* grid visualisation CSS for testing */
-
-/* .container,
-.row {
-    border: 2px solid black;
-}
-
-.col-12 {
-    border: 2px solid white;
-    background-color: lightgray;
-} */
 
 /* Media queries */
 
